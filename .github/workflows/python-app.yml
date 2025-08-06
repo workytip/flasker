@@ -5,6 +5,7 @@ name: test-workflow
 
 on:
   workflow_dispatch:  
+  create:
   push:
     branches: [ "main" ]
   pull_request:
