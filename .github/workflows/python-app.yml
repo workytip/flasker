@@ -38,4 +38,4 @@ jobs:
     #   run: |
     #     pytest
     - name: test context
-      run: echo "${{ github.event.*.name }}"
+      run: echo "${{ github.event }}"
