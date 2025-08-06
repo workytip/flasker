@@ -38,4 +38,4 @@ jobs:
     #   run: |
     #     pytest
     - name: test context
-      run: echo ${{ github.event.push.pusher.email }}
+      run: echo "${{ github.event.push.pusher.email }}"
