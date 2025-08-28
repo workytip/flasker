@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  flasker:
+    container_name: flasker_container
+    build: .
+    ports:
+      - "5000:5000"
+    environment:
+      - FLASK_APP=flasker
+      - FLASK_ENV=development
